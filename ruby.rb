@@ -36,7 +36,7 @@ def capitalize string
   tempStr = string.split
   tempStr.each{ |i| puts i.capitalize }.join(' ')
 end 
-
+# how to join back together?
 capitalize(sentence)
 
 #### 4.  Create a method that takes in a string and returns a new string with all the vowels removed. HINT:  there's a built in string method for this
@@ -51,19 +51,25 @@ no_vowel(no_vowels)
 
 #### 5. Look at this horrible ruby code, and fix it to be good ruby code.
 
+#Example should be capitalized
+#say_hi should be snake cased
+#You don't need () around day in the initialize
+#you don't need the () and {} in the conditionals
+
+
 # ``` ruby
-# class example
-#   def initialize(day)
+# class Example
+#   def initialize day
 #     @day=day
 #   end
 
-#   def Say_hi
-#     if(day == "Friday"){
+#   def say_hi
+#     if day == "Friday" 
 #       puts "TGIF!"
-#     }
-#     elseif(day == "Monday"){
+#     
+#     elsif day == "Monday"  
 #       puts "Its monday again"
-#     }
+#     
 #     else
 #       puts "another day"
 #   end
@@ -74,14 +80,19 @@ no_vowel(no_vowels)
 # your class here
 
 class Animal 
-  def initialize
+  def initialize color
     @legs = 4
+    @color = color
   end
   def get_legs
     @legs
   end
 end
 
-cat = Animal.new
+cat = Animal.new 'orange' 
 p cat.get_legs
 #### 6b.  Create a new instance of an Animal with a brown color.  Return how many legs the animal has.
+dog = Animal.new 'brown'
+p dog.get_legs
+
+
