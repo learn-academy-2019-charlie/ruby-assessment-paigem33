@@ -34,7 +34,8 @@ sentence = "hello there, how are you?"
 
 def capitalize string 
   tempStr = string.split
-  tempStr.each{ |i| puts i.capitalize }.join(' ')
+  tempStr.each{ |i| puts i.capitalize }
+  p new_string = tempStr.join(' ')
 end 
 # how to join back together? couldn't get it back together on one line as one string
 capitalize(sentence)
@@ -64,10 +65,10 @@ no_vowel(no_vowels)
 #   end
 
 #   def say_hi
-#     if day == "Friday" 
+#     if @day == "Friday" 
 #       puts "TGIF!"
 #     
-#     elsif day == "Monday"  
+#     elsif @day == "Monday"  
 #       puts "Its monday again"
 #     
 #     else

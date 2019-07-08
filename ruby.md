@@ -36,7 +36,7 @@ RSpec is a testing tool for Ruby, created for behavior-driven development (BDD).
 1- You can have a class inherit from another, but if you give the new class an initialize without a props, it will not actually inherit the information in the original initialize.
 
 //Googled Answer
-
+Examples of non-inheritance relationships are has-many, belongs-to, etc
 
 #### 5. What do we call the #{} convention used below? What is it accomplishing?
 
