@@ -36,7 +36,7 @@ def capitalize string
   tempStr = string.split
   tempStr.each{ |i| puts i.capitalize }.join(' ')
 end 
-# how to join back together?
+# how to join back together? couldn't get it back together on one line as one string
 capitalize(sentence)
 
 #### 4.  Create a method that takes in a string and returns a new string with all the vowels removed. HINT:  there's a built in string method for this

@@ -25,6 +25,7 @@ of their own. If all mammals breathe, then all cats breathe.
 
 //Your Answer
 rspec is a program for testing in ruby. The process of writing tests in ruby is similar to testing in javascript. You should use red, green, refactor, meaning to write your test for a method that doesn't exist and you say what it should do and then give it an expected outcome. Then you make sure it is failing for the right reasons, and then you write the method that will make the test pass, and once it is working you make sure your code is functioning the best it can be.
+
 //Googled Answer
 RSpec is a testing tool for Ruby, created for behavior-driven development (BDD). It is the most frequently used testing library for Ruby in production applications. First, you need to create a describe block to group all your tests together & to tell RSpec which class you are testing. Then you need the it block. This is the test name, plus a way to group together all the components of the test itself.
 
@@ -43,7 +44,7 @@ RSpec is a testing tool for Ruby, created for behavior-driven development (BDD).
 x = 1022
 puts "I am printing a random number #{x}"
 ```
-It is called embedded ruby, and it allows you to do string interpulation. 
+It allows you to do string interpulation, it is plugging the value of x into the string.
 
 #### 6. How do you feel about testing right now? What potential pros/cons/barriers/advantages do you see to implementing BDD in your own code?
 
@@ -70,3 +71,5 @@ An instance variable has a name beginning with @, and its scope is confined to w
 
 
 Choose one of these resources and go through the material (not for hours, only looking for around 10min of your time) then come back here and list a few new things you learned about Ruby.
+
+I thought the .instance_methods(false) part from the ruby in 20 minutes was really interesting. I didn't realize you could list out all the methods from parent classes and that you could keep them from being inherited. I also really liked the example of the each loop, since I've had a hard time finding a good example of one.
